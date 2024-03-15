@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" href="/img/icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <a href="index.html">
+            <img src="Logo.png" alt="" class="lLogin">
+            </a>
+        </nav>
+    </header>
+
+    <main>
+    <h2>Faça login para ter acesso a página</h2>
+    <div class="form">
+    <form>
+        <label for="usuario">Usuário:</label><br>
+        <input type="text" id="usuario" name="usuario" class="input"><br>
+
+        <label for="senha">Senha:</label><br>
+        <input type="password" id="senha" name="senha" class="input"><br>
+
+        <input type="button" value="Login" onclick="validarLogin()" class="button">
+    </form>
+</div>
+    </main>
+
+    <footer>
+        <p class="footer">&copy;Todos os direitos reservados</p>
+    </footer>
+
+    <script src="login.js"></script>
+</body>
+</html>
